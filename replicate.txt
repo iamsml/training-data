@@ -49,6 +49,8 @@ Parameters: Steps: 25, Sampler: Euler a, CFG scale: 8.0, Seed: 2470332296, Size:
 
 photo of a dog tani running in nyc in the rain
 
+ZXZ
+
 
 lowres, error, cropped, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, out of frame, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck
 
