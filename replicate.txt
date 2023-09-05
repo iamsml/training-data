@@ -1,0 +1,65 @@
+https://huggingface.co/spaces/felixrosberg/face-swap
+
+RAW candid cinema, 16mm, color graded portra 400 film, remarkable color, ultra realistic, textured skin, remarkable detailed pupils, realistic dull skin noise, visible skin detail, skin fuzz, dry skin, shot with cinematic camera 
+
+
+photo of a tabby cat sleeping
+
+
+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
+
+git remote set-url origin https://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@github.com/iamsml/dogbooth
+
+
+https://github.com/iamsml/training-data/raw/main/data.zip
+
+https://github.com/iamsml/training-data/raw/main/spindrift.zip
+
+
+import replicate
+
+training = replicate.trainings.create(
+    version="stability-ai/sdxl:d830ba5dabf8090ec0db6c10fc862c6eb1c929e1a194a5411852d25fd954ac82",
+    input={
+        "input_images": "https://github.com/iamsml/training-data/raw/main/new-balance.zip",
+        "mask_target_prompts": "photo of a shoe",
+    },
+    destination="iamsml/new-balance-sdxl"
+)
+print(training)
+
+
+50mm, sharp, muscular, detailed realistic face, hyper realistic, (perfect face), intricate, natural light, <subject> ((underwater photoshoot)) (collarbones), (skin indentation), [Alphonse Mucha, Greg Rutkowski]
+
+portrait of an ((oil painting)) of @tani dog, diffuse lighting, fantasy, intricate, elegant, highly detailed, lifelike, photorealistic, digital painting, smooth, sharp focus 
+
+
+Cute small dog sitting in a movie theater eating popcorn watching a movie, unreal engine, cozy indoor lighting, artstation, detailed, digital painting,cinematic,character design by mark ryden and pixar and hayao miyazaki, unreal 5, daz, hyperrealistic, octane render
+
+
+Prompt: Cute small dog (tani) sitting in a movie theater eating popcorn watching a movie ,unreal engine, cozy indoor lighting, artstation, detailed, digital painting,cinematic,character design by mark ryden and pixar and hayao miyazaki, unreal 5, daz, hyperrealistic, octane render
+
+Negative prompt: ugly, ugly arms, ugly hands, ugly legs
+
+
+zoomed out portrait of @tani dog as a cyberpunk, dark and gritty, highly detailed, retro-futuristic style, neon lighting, cyberpunk city in the background, art by wlop, greg rutkowski, and charlie bowater, 8 k resolution, ultra-realistic, octane render, unreal engine.
+
+Parameters: Steps: 25, Sampler: Euler a, CFG scale: 8.0, Seed: 2470332296, Size: 512x512
+
+
+photo of a dog tani running in nyc in the rain
+
+
+lowres, error, cropped, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, out of frame, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck
+
+((((ugly)))), (((duplicate))), ((morbid)), ((mutilated)), [out of frame], extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), (fused fingers), (too many fingers), (((long neck)))
+
+
+
+photo of a dog TOK, running in the streets of san francisco
+
+
+  "iamsml/tani:48c0eca6a7a4303e474655fb80ae5cdcb20751a13149dcf0dbd92ab2ccaa302c",
+
+
+output = replicate.run("iamsml/tani:48c0eca6a7a4303e474655fb80ae5cdcb20751a13149dcf0dbd92ab2ccaa302c", input={"prompt": "a photo of TOK riding a rainbow unicorn"},)
